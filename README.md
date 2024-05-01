@@ -13,6 +13,7 @@ Here are my skills
 Here are some of my projects
 - [Talo](https://github.com/Development707/TaloChat)
 - [BookStore](https://github.com/Development707/Book-store)
+- [BlocArchitecture](https://github.com/Development707/Flutter-Bloc-Architecture/tree/main/example)
 
 Here are some of my packages
 - [bloc_architecture_core](https://pub.dev/packages/bloc_architecture_core)
