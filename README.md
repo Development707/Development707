@@ -11,7 +11,6 @@ Here are my skills
 - NoSQL / MySQL
 
 Here are some of my projects
-- [Development707](https://development707.github.io/Development707/)
 - [BlocArchitecture](https://github.com/Development707/Flutter-Bloc-Architecture/tree/main/example)
 - [Talo](https://github.com/Development707/TaloChat)
 - [BookStore](https://github.com/Development707/Book-store)
@@ -21,7 +20,8 @@ Here are some of my packages
 - [bloc_architecture_localization](https://pub.dev/packages/bloc_architecture_localization)
 
 Here are some of my websites
-- [bloc_architecture_example](https://development707.github.io/Flutter-Bloc-Architecture/)
+- [Development707](https://development707.github.io/Development707/)
+- [BlocArchitecture](https://development707.github.io/Flutter-Bloc-Architecture/)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Development707&layout=compact&theme=dark&show_icons=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Development707&layout=compact&theme=dark)
