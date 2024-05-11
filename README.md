@@ -1,4 +1,4 @@
-[Hi, Hello
+Hi, Hello
 Let me introduce myself.
 
 I'm working as a mobile software engineering developer.
@@ -9,7 +9,7 @@ Here are my skills
 - Swift / Objective-c
 - Flutter
 - NodeJS / SpringBoot
-- NoSQL / MySQL
+- SQL / NoSQL
 
 Here are some of my projects
 
