@@ -13,13 +13,13 @@ Here are my skills
 
 Here are some of my projects
 
-- [BlocArchitecture](https://github.com/Development707/Flutter-Bloc-Architecture/tree/main/example)
+- [BlocArchitecture](https://github.com/Development707/Flutter-Bloc-Architecture)
 - [Talo](https://github.com/Development707/TaloChat)
 - [BookStore](https://github.com/Development707/Book-store)
 
 Here are some of my packages
 
-- [bloc_architecture_core](https://pub.dev/packages/bloc_architecture_core)
+- [bloc_architecture](https://pub.dev/packages/bloc_architecture_core)
 - [ocr_scan](https://pub.dev/packages/ocr_scan)
 
 Here are some of my websites
