@@ -1,40 +1,58 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Development707</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
-    <style> /* Markdown styles */
-      body {
-        background-color: #000;
-        color: #fff;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-      a {
-        color: #0af;
-      }
+    <style>
+        :root {
+            --background-color: white;
+            --text-color: black;
+            --link-color: blue;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: var(--link-color);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: black;
+                --text-color: white;
+                --link-color: cyan;
+            }
+        }
     </style>
-  </head>
+</head>
 
-  <body></body>
+<body></body>
 
-  <script>
+<script>
     function getReadme(user, repo) {
-      fetch(`https://api.github.com/repos/${user}/${repo}/contents/README.md`)
-        .then((response) => response.json()) // Parse JSON from the response
-        .then((data) => atob(data.content)) // Decode the Base64-encoded content
-        .then((data) => new showdown.Converter().makeHtml(data)) // Convert Markdown to HTML
-        .then((data) => (document.body.innerHTML = data))
-        .catch((error) => console.log(error));
+        fetch(`https://api.github.com/repos/${user}/${repo}/contents/README.md`)
+            .then((response) => response.json()) // Parse JSON from the response
+            .then((data) => atob(data.content)) // Decode the Base64-encoded content
+            .then((data) => new showdown.Converter().makeHtml(data)) // Convert Markdown to HTML
+            .then((data) => (document.body.innerHTML = data))
+            .catch((error) => console.log(error));
     }
 
     window.addEventListener("load", () => {
-      getReadme("Development707", "Development707");
+        getReadme("Development707", "Development707");
     });
-  </script>
+</script>
+
 </html>
