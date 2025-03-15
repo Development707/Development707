@@ -13,8 +13,8 @@ Here are my skills
 
 Here are some of my projects
 
-- [Talo](https://github.com/Development707/TaloChat)
-- [BookStore](https://github.com/Development707/Book-store)
+- [Talo](https://github.com/Dyno181cm/TaloChat)
+- [BookStore](https://github.com/Dyno181cm/Book-store)
 
 
 Here are some of my packages
@@ -23,8 +23,7 @@ Here are some of my packages
 
 Here are some of my websites
 
-- [Development707](https://development707.github.io/Development707/)
 - [HRM Dinosaur](https://hrm-dinosaur.web.app)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Development707&layout=compact&theme=dark&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Development707&layout=compact&theme=dark)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Dyno181cm&layout=compact&theme=dark&show_icons=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dyno181cm&layout=compact&theme=dark)
